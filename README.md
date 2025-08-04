@@ -1,12 +1,69 @@
-# React + Vite
+# 🎯 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Quiz App built using **React.js**. This project helps users test their knowledge with multiple-choice questions and see their score instantly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧠 Multiple-choice questions
+- ✅ Instant answer validation
+- 📊 Score tracking
+- 🔁 Option to restart the quiz
+- ⚛️ Built with React hooks (`useState`, `useRef`)
+- 🔄 Conditional rendering for question flow
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- **React.js**
+- **JavaScript (ES6)**
+- **HTML/CSS**
+
+---
+
+## ⚙️ Hooks Used
+
+- `useState`: To manage quiz state like current question, selected answer, and score.
+- `useRef`: To reference DOM elements (e.g., focusing inputs or buttons).
+
+---
+
+## 📸 Screenshots
+
+*(Add your own screenshots here)*
+
+---
+
+## 📁 Folder Structure
+
+quiz-app/
+│
+├── public/
+├── src/
+│ ├── components/ # (Optional) Reusable components
+│ ├── App.js # Main component
+│ ├── index.js # React entry point
+│ └── styles.css # Styling
+├── .gitignore
+├── package.json
+└── README.md
+
+
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Kaldhari/quiz-app.git
+   cd quiz-app
+   npm install
+   npm start
+
+
+Open http://localhost:3000 in your browser to view the app
+
+
