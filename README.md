@@ -32,7 +32,8 @@ A simple and interactive Quiz App built using **React.js**. This project helps u
 
 ## 📸 Screenshots
 
-*(Add your own screenshots here)*
+<img width="1918" height="915" alt="image" src="https://github.com/user-attachments/assets/cf36c3db-a571-4225-8367-a749d9aeb461" />
+
 
 ---
 
